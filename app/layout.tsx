@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
+import { GeistSans } from "geist/font/sans";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,9 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <a className="fixed mx-12" href="https://hackclub.com/"><Image src="/hack.png" width={150} height={100} alt="banner"/></a>
-      {children}</body>
+      <body className={GeistSans.className}>
+        <a className="fixed mx-12" href="https://hackclub.com/"><Image src="/hack.png" width={150} height={100} alt="banner" /></a>
+        {children}</body>
     </html>
   );
 }

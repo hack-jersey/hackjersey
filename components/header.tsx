@@ -9,17 +9,14 @@ export default function Header() {
   return (
     <>
       <div className="flex items-center justify-center text-center">
-        <div className="hidden md:block">
-          <Logo width={1275} height={380} />
-        </div>
-        <div className="md:hidden block">
-          <LogoSmall width={360} height={180} />
+        <div>
+          <img src="/logo.png" alt="Logo" className="w-[23rem] md:w-[40rem] lg:w-[60rem] mb-5 md:mb-0" />
         </div>
       </div>
-      <p className="text-lg max-w-[23rem] text-[#FFFFFF90] text-center">
+      <p className="text-lg max-w-[24rem] md:max-w-[35rem] text-[#FFFFFF90] text-center">
         The <b className="text-[#34ACF0]">high school hackathon</b> for anyone
         in New Jersey to build whatever they please,
-        <b className="text-[#34ACF0]">no prior coding experience required.</b>
+        <b className="text-[#34ACF0]"> no prior coding experience required.</b>
       </p>
       <motion.div
         animate={{
