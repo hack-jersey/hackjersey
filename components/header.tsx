@@ -2,16 +2,23 @@ import Image from "next/image";
 import { BsMouse } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
 import { motion } from "framer-motion";
+import Logo from "./logo";
+import LogoSmall from "./logosmall";
 
 export default function Header() {
   return (
     <>
-      <div className=" pb-6">
-        <Image src="/hackjersey.png" width={900} height={100} alt="banner" />
+      <div className="flex items-center justify-center text-center">
+        <div className="hidden md:block">
+          <Logo width={1275} height={380} />
+        </div>
+        <div className="md:hidden block">
+          <LogoSmall width={360} height={180} />
+        </div>
       </div>
-      <p className="text-xl text-[#FFFFFF90] w-3/5">
+      <p className="text-lg max-w-[23rem] text-[#FFFFFF90] text-center">
         The <b className="text-[#34ACF0]">high school hackathon</b> for anyone
-        in Jersey to build whatever they please,
+        in New Jersey to build whatever they please,
         <b className="text-[#34ACF0]">no prior coding experience required.</b>
       </p>
       <motion.div

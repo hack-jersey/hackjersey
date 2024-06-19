@@ -4,7 +4,7 @@ export default function Vision() {
   return (
     <>
       <div className="mt-96 w-4/5">
-        <h1 className="text-6xl font-bold mb-24">Our Vision</h1>
+        <h1 className="text-6xl text-center font-bold mb-24">Our Vision</h1>
 
         <div className="relative z-10 grid gap-3 grid-cols-5 text-left">
           <motion.div
