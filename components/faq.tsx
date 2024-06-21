@@ -40,7 +40,7 @@ export default function Faq() {
         <Accordion type="single" collapsible className="text-xl text-white/90 w-3/5">
           {questions.map((q, index) => (
             <AccordionItem value={`item-${index}`} key={index}>
-              <AccordionTrigger className="font-semibold">{q.question}</AccordionTrigger>
+              <AccordionTrigger className="font-semibold text-left">{q.question}</AccordionTrigger>
               <AccordionContent className="text-lg text-white/80">{q.answer}</AccordionContent>
             </AccordionItem>
           ))}

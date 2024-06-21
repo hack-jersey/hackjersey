@@ -27,7 +27,7 @@ export default function Home() {
             <div className="w-[700px] h-[700px] bg-[#7BCDFD] rounded-full filter blur-[180px] opacity-20"></div>
           </div>
         </div>
-        <div className="relative z-10 flex justify-center items-center flex-col pt-[10rem] md:pt-[20rem]">
+        <div className="relative z-10 flex justify-center items-center flex-col pt-[10rem] md:pt-[15rem]">
           <Header />
           <Vision />
           <Faq />
