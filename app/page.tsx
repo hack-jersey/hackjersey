@@ -11,7 +11,13 @@ export default function Home() {
     <>
       <main className="text-[#EEE] bg-y-repeat bg-[#000F16] min-h-screen relative">
         <div className="absolute top-0 left-0">
-          <img src="/hack.png" className="w-[10rem] md:w-[15rem]" alt="banner" />
+          <a className="fixed" href="https://hackclub.com/">
+            <img
+              src="/hack.png"
+              className="w-[10rem] md:w-[15rem]"
+              alt="banner"
+            />
+          </a>
         </div>
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute top-0 right-0 transform -translate-x-1/2 -translate-y-1/2">
@@ -32,8 +38,10 @@ export default function Home() {
           <Vision />
           <Faq />
           <Team />
-          <p className="text-center font-medium text-white/40 my-[3rem]">hackJersey, a fiscally sponsored 501(c)(3) nonprofit by The Hack Foundation. our EIN is <span className="font-mono">81-2908499</span></p>
-
+          <p className="text-center font-medium text-white/40 my-[3rem]">
+            hackJersey, a fiscally sponsored 501(c)(3) nonprofit by The Hack
+            Foundation. our EIN is <span className="font-mono">81-2908499</span>
+          </p>
         </div>
       </main>
     </>
