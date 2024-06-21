@@ -32,7 +32,7 @@ export default function Home() {
           <Vision />
           <Faq />
           <Team />
-          <p className="text-center font-medium text-white/40 my-[3rem]">hackJersey, a fiscally sponsored 501(c)(3) nonprofit by The Hack Foundation</p>
+          <p className="text-center font-medium text-white/40 my-[3rem]">hackJersey, a fiscally sponsored 501(c)(3) nonprofit by The Hack Foundation. our EIN is <span className="font-mono">81-2908499</span></p>
 
         </div>
       </main>
